@@ -1,4 +1,4 @@
-var db_creator = require('./db_creator');
+var db_creator = require('./lib/node-sqlite-creator');
 
 exports.prepare_db = function(db){
 

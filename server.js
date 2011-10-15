@@ -1,9 +1,9 @@
-var _					= require('./underscore-min');
+var _					= require('./lib/underscore-min');
 var sys 	 		= require('sys');
 var net		 		= require('net');
 var sqlite 		= require('sqlite');
 var crypto 		= require('crypto');
-var server_db = require('./server_db');
+var server_db = require('./server-db');
 
 var db = new sqlite.Database();
 var connections = [];
