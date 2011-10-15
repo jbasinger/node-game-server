@@ -1,0 +1,12 @@
+# NAME
+
+node-game-server A generic command based server for multiplayer games with account creation
+
+# IMPORTANT NOTE
+
+This library requires https://github.com/orlandov/node-sqlite
+This library also uses https://github.com/jbasinger/node-sqlite-creator but right now it's embedded
+
+# USAGE
+
+Extend this module into your own server and add commands. Then use it as the backend for any game.
