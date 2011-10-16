@@ -43,6 +43,8 @@ sock.on('data', function(data){
 				, state: JSON.stringify({x: 10, y: 10})
 			}));
 			
+			sock.write(JSON.stringify({command: 'number_of_clients'}));
+			
 			break;
 		case 'state':
 			console.log('Got state: ' + result);
