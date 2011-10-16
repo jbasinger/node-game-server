@@ -10,6 +10,10 @@ exports.prepare_db = function(db){
 		password: 'TEXT'
 	});
 	
+	tblCreator.add_columns('users', {
+		nickname: 'TEXT'
+	});
+	
 };
 
 exports.drop_all = function(db){
